@@ -4,16 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
   <title>TradingView Watchlist</title>
+
   <style>
+    html {
+      color-scheme: light dark;
+    }
+
     body {
       margin: 0;
       padding: 0;
       background: transparent;
     }
   </style>
+
   <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-market-overview.js"></script>
 </head>
+
 <body>
   <tv-market-overview
     symbol-sectors='[{"sectionName":"Indices","symbols":["FOREXCOM:EURUSD","FOREXCOM:GBPUSD","FOREXCOM:GER40","FOREXCOM:USDCAD","FOREXCOM:US30"]}]'>
